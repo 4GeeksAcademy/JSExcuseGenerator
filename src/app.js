@@ -8,7 +8,7 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
-  document.querySelector("excuse").innerHTML= ExcuseGen();
+  document.querySelector("#excuse").innerHTML = ExcuseGen();
 };
 function ExcuseGen() {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
@@ -19,7 +19,7 @@ function ExcuseGen() {
     "right on time",
     "when I finished",
     "during my lunch",
-    "while I was praying",
+    "while I was praying"
   ];
 
   let indexWho = Math.floor(Math.random() * who.length);
